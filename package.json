@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Legends-Launcher",
+    "preductname": "Legends Launcher",
     "version": "2.0.0",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "Launcher de minecraft para o servidor Pixelmon Legends",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Legends, Inc.",
+        "email": "ric.pastel@gmail.com",
+        "url": "https://github.com/CarlosHenrique-CA"
     },
-    "url": "http://launcher.luuxis.fr/launcherSelvania",
+    "url": "http://51.161.11.135/launcher/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=false --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://private-user-images.githubusercontent.com/105946752/305495679-7a5c1962-3e85-4137-a731-cae7cc831f1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgxMDQ5ODksIm5iZiI6MTcwODEwNDY4OSwicGF0aCI6Ii8xMDU5NDY3NTIvMzA1NDk1Njc5LTdhNWMxOTYyLTNlODUtNDEzNy1hNzMxLWNhZTdjYzgzMWYxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNlQxNzMxMjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYmZhMmJlN2YyMWUzNGM2YWFkMjAxYzQ5ZmRiNTZmYjhhYjkwNjg4MWE3YzBkMjU5YTg1ZGM4N2I5YzZlNjY0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2W2qwMbTd5k9K1j3OvTEqKbi_fp--DNMpYLjwkfcddk"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/CarlosHenrique-CA/PixelLegends-Launcher.git"
     }
 }
