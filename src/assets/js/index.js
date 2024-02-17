@@ -29,9 +29,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "Pixelmon Legends o melhor servidor de pixelmon", "autor": "PixelmonLegends" },
+            { "message": "Adquira vantagens em nosso site!", "autor": "PixelmonLegends" },
+            { "message": "Dúvidas? Entre em nosso discord!", "autor": "PixelmonLegends" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -51,14 +51,14 @@ class Splash {
 
     async checkUpdate() {
         if (dev) return this.startLauncher();
-        this.setStatus(`Recherche de mise à jour...`);
+        this.setStatus(`Procurando por atualizações...`);
 
         ipcRenderer.invoke('update-app').then().catch(err => {
             return this.shutdown(`erreur lors de la recherche de mise à jour :<br>${err.message}`);
         });
 
         ipcRenderer.on('updateAvailable', () => {
-            this.setStatus(`Mise à jour disponible !`);
+            this.setStatus(`Tem uma atualização disponível!`);
             ipcRenderer.send('start-update');
         })
 
@@ -89,7 +89,7 @@ class Splash {
     }
 
     startLauncher() {
-        this.setStatus(`Démarrage du launcher`);
+        this.setStatus(`Iniciando o launcher`);
         ipcRenderer.send('main-window-open');
         ipcRenderer.send('update-window-close');
     }
