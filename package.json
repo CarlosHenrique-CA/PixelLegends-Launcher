@@ -1,7 +1,7 @@
 {
     "name": "Legends-Launcher",
     "preductname": "Legends Launcher",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "Launcher de minecraft para o servidor Pixelmon Legends",
     "main": "src/app.js",
     "author": {
